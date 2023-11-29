@@ -1,0 +1,16 @@
+@import 'src/sass/base/variables';
+
+* {
+    font-family: Comfortaa, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+}
+@import 'src/sass/blocks/promo';
+@import 'src/sass/blocks/header';
+@import 'src/sass/blocks/buttons'
