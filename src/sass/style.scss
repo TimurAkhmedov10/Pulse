@@ -1,4 +1,9 @@
 @import 'src/sass/base/variables';
+@import 'src/sass/blocks/promo';
+@import 'src/sass/blocks/header';
+@import 'src/sass/blocks/buttons';
+@import 'src/sass/blocks/advantages';
+@import 'src/sass/base/media';
 
 * {
     font-family: Comfortaa, sans-serif;
@@ -11,8 +16,3 @@
     max-width: 950px;
     margin: 0 auto;
 }
-@import 'src/sass/blocks/promo';
-@import 'src/sass/blocks/header';
-@import 'src/sass/blocks/buttons';
-@import 'src/sass/blocks/advantages';
-@import 'src/sass/base/media'

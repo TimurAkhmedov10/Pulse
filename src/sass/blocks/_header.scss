@@ -2,12 +2,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 15px;
 
     &__logo {
-        width: 250px;
+        flex: 1 1 0;
 
         img {
-            width: 100%;
+            width: 80%;
         }
     }
 
@@ -16,6 +17,7 @@
         text-align: center;
         font-size: 12px;
         font-weight: 500;
+        flex: 1 1 0;
 
         span {
             display: block;
@@ -41,5 +43,6 @@
         display: flex;
         flex-direction: column;
         align-items: flex-end;
+        flex: 1 1 0;
     }
 }
