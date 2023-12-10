@@ -29,6 +29,7 @@
         .feed-form {
             align-items: center;
             width: 100%;
+
             input {
                 width: 300px;
             }
@@ -40,6 +41,17 @@
             }
         }
 
+    }
+
+    .carousel {
+        &__inner {
+            width: 75%;
+
+            img {
+                width: 100%;
+                /* margin: 0 auto; */
+            }
+        }
     }
 
 }
@@ -89,6 +101,17 @@
     .advantages__icons {
         width: 576px;
     }
+
+    .carousel {
+        .slick-dots button {
+            height: 15px; 
+            width: 15px;
+        }
+        .slick-dots li[class="slick-active"] button {
+            height: 20px;
+            width: 20px;
+        }
+    }
 }
 
 @media(max-width: 575.98px) {
@@ -107,6 +130,7 @@
         &__logo {
             display: flex;
             justify-content: center;
+
             img {
                 width: 70%;
             }
@@ -126,7 +150,7 @@
             font-size: 28px;
             text-align: center;
         }
-        
+
 
         &__subheader {
             font-size: 15px;
@@ -135,10 +159,12 @@
 
         &__icons {
             width: 310px;
-            margin-right: 0;    
+            margin-right: 0;
         }
+
         &__icon {
             font-size: 10px;
+
             img {
                 width: 30px;
             }
@@ -146,6 +172,7 @@
 
         .button {
             margin-top: 12px;
+
             &_main {
                 margin-top: 40px;
                 width: 265px;

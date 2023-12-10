@@ -1,0 +1,75 @@
+.carousel {
+    padding: 81px 0;
+
+    &__inner {
+        position: relative;
+        width: 750px;
+        margin: 0 auto;
+    }
+
+    .slick-prev,
+    .slick-next {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: -66px;
+        border: none;
+        background-color: #fff;
+        cursor: pointer;
+
+
+        img {
+            width: 31px;
+            height: 50px;
+            transition: 0.5s ease-in-out;
+        }
+
+        img:hover {
+            
+            transform:
+                /* rotate(360deg); */
+                translate(-15px, 0);
+            /* Градусы поворота можно изменить по необходимости */
+            
+        }
+
+    }
+
+    .slick-next {
+        right: -66px;
+        left: auto;
+
+        img:hover {
+
+            transform:
+                /* rotate(360deg); */
+                translate(15px, 0)
+        }
+    }
+
+    .slick-dots {
+        
+        text-align: center;
+        display: flex; // поставить кнопки в ряд
+        justify-content: center; // выровнять по центру
+        list-style: none; // убираем черные маркеры
+        align-items: center;
+    }
+    .slick-dots button {
+        background: #f2505077; // цвет фона
+        border: none; // без рамки
+        border-radius: 50%; // радиус закругления
+        height: 20px; // высота точки
+        width: 20px; // ширина точки
+        margin: 10px; // отступы между точками
+        outline: none; // убираем обводку
+        font-size: 0;
+        transition: 0.3s all;
+    }
+
+    .slick-dots li[class="slick-active"] button {
+        background: #c70101;
+        height: 25px; // высота точки
+        width: 25px;
+    }
+}
