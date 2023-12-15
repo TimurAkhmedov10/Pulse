@@ -76,7 +76,7 @@
             margin-top: 15px;
             color: #0D0D0D;
             text-align: center;
-            font-size: 14px;
+            font-size: 13px;
             font-weight: 300;
             line-height: 20px;
         }
@@ -176,7 +176,6 @@
 
         &__back {
             position: absolute;
-            margin-top: 10px;
             bottom: 0;
             left: 50%;
             transform: translateX(calc(-50% - 20px));
