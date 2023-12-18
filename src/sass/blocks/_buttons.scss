@@ -38,8 +38,13 @@
     &_mini {
         width: 135px;
         height: 44px;
-
         font-size: 14px;
+        &:hover {
+            color: black;
+        }
+    }
+
+    &_consultation {
         &:hover {
             color: black;
         }

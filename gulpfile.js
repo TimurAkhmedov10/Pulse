@@ -3,7 +3,7 @@ import browserSync from 'browser-sync';
 import cleanCSS from  'gulp-clean-css';
 import autoprefixer from 'gulp-autoprefixer';
 import rename from 'gulp-rename';
-import dartSass from 'sass';
+import *as dartSass from 'sass';
 import gulpSass from 'gulp-sass';
 const sass = gulpSass(dartSass);
 
