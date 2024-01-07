@@ -1,4 +1,24 @@
+@import 'src/sass/libs/bootstrap-reboot.min';
+@import 'src/sass/libs/slick';
+@import 'src/sass/libs/animate';
+
+@import 'src/sass/base/animations';
 @import 'src/sass/base/variables';
+
+
+* {
+    font-family: Comfortaa, sans-serif;
+    /* font-display: swap; */
+  /*   box-sizing: border-box;
+    margin: 0;
+    padding: 0; */
+}
+
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+}
+
 @import 'src/sass/blocks/promo';
 @import 'src/sass/blocks/header';
 @import 'src/sass/blocks/buttons';
@@ -11,16 +31,5 @@
 @import 'src/sass/blocks/reviews';
 @import 'src/sass/blocks/footer';
 @import 'src/sass/blocks/modal';
+@import 'src/sass/blocks/pageup';
 @import 'src/sass/base/media';
-
-* {
-    font-family: Comfortaa, sans-serif;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-.container {
-    max-width: 950px;
-    margin: 0 auto;
-}

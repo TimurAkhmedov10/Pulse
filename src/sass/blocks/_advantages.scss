@@ -19,6 +19,9 @@
         font-size: 14px;
         font-weight: 300;
         line-height: 18px;
+        &_animated {
+            animation: heartbeat 1.5s ease-in-out infinite;
+        }
 
         img {
             display: block;

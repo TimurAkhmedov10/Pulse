@@ -22,16 +22,18 @@
             width: 31px;
             height: 50px;
             transition: 0.5s ease-in-out;
+
+            &:hover {
+
+                transform:
+                    /* rotate(360deg); */
+                    translate(-15px, 0);
+                /* Градусы поворота можно изменить по необходимости */
+
+            }
         }
 
-        img:hover {
-            
-            transform:
-                /* rotate(360deg); */
-                translate(-15px, 0);
-            /* Градусы поворота можно изменить по необходимости */
-            
-        }
+
 
     }
 
@@ -48,13 +50,14 @@
     }
 
     .slick-dots {
-        
+
         text-align: center;
         display: flex; // поставить кнопки в ряд
         justify-content: center; // выровнять по центру
         list-style: none; // убираем черные маркеры
         align-items: center;
     }
+
     .slick-dots button {
         background: #f2505077; // цвет фона
         border: none; // без рамки
